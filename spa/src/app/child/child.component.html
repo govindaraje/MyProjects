@@ -1,0 +1,11 @@
+<div [ngClass]="box">
+  {{info}}
+  <button class="button" (click)="update(1)">Green</button>
+  <button class="button" (click)="update(2)">Blue</button>
+  <hr>
+ <ul>
+   <li *ngFor="let item of items">{{item}}</li>
+ </ul>
+ <input type="text" [(ngModel)]="newone">
+ <button (click)="sendToParent()">Add Item</button>
+</div>

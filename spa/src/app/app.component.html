@@ -1,0 +1,9 @@
+<h1>Welcome to Angular</h1>
+<input type="text" [(ngModel)]="title">
+{{title}}
+
+<hr>
+<h3>The Current item added is {{newItem}}</h3>
+<hr>
+<child *ngFor="let x of [0,1,2]" [title]="childtitles[x]" [things]="things[x]" 
+(notify)="subcribedInfo($event,x)"></child>

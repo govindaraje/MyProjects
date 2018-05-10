@@ -1,0 +1,18 @@
+.form{
+    width: 95%;
+    height: 420px;
+    padding: 10px;
+    border: 2px ridge green;
+    box-sizing: border-box;
+    margin: 10px;
+}
+.field{
+    color: green;
+    font-weight: bold;
+}
+.validation{
+    color: red;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}

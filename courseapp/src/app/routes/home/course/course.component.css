@@ -1,0 +1,47 @@
+.course{
+    height: 350px;
+    width: 225px;
+    float: left;
+    margin: 10px;
+    box-shadow: 2px 2px 4px gray;
+    background-color: rgb(171, 248, 171);
+    border: double green;
+
+}
+
+.coursepic{
+    height: 100px;
+    width: 100%;
+}
+
+.coursepic img{
+    height: 100%;
+    width: 100%;
+}
+
+h3{
+    color: green;
+    font-family: Arial;
+    text-align: center;
+}
+.price{
+    color: rgb(201,9,9);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}
+.description{
+    color: rgb(75,75,83);
+    font-family: agency FB;
+    text-align: justify;
+    font-size: 12px;
+    margin: 5px;
+}
+.offer{
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+}

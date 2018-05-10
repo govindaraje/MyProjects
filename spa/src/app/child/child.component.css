@@ -1,0 +1,20 @@
+.greenbox{
+    height: 300px;
+    width: 220px;
+    background-color: #c5f3c5;
+    color:green;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+    font-size: large;
+}
+.bluebox{
+    height: 300px;
+    width: 220px;
+    background-color: #c8c5f3;
+    color:rgb(19, 0, 128);
+    margin: 10px;
+    padding: 5px;
+    float: left;
+    font-size: large;
+}

@@ -1,0 +1,25 @@
+.review{
+    height: 100px;
+    width: 90%;
+    border-left: 8px solid green;
+    background-color: #ABF8AB;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h3{
+    color: brown;
+    font-family: Agency FB;
+    font-size: 20px;
+}
+h4{
+    color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rdate{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 12px;
+}
